@@ -70,3 +70,52 @@
     print_r(divisible(16). "<br>");
     print_r(divisible(3). "<br>");
 ?>
+<?php
+    // function draw(){
+    //      $y = 10;
+    //      echo $x;
+    //      echo $y;
+    //   }
+    //   draw();
+?>  
+<?php
+    // $x=5;
+    // function draw(){
+    //      $y = 10;
+    //      echo $y;
+    //   }
+    //   echo "\n, $x";
+    //   draw();
+?>  
+<?php 
+    // $x = 5;
+    // $y = 11;
+
+    // function sum(){
+    //     global $x,$y;
+    //     $y = $x + $y;
+    // }
+    // sum();
+    // echo $y;
+?>
+<?php 
+    // function counter(){
+    //     static $count = 0;
+    //     $count++;
+    //     echo "vlera e count is : $count <br>";
+    // }
+    // counter();
+    // counter();
+ 
+?>
+<?php
+    // $sports = array('real madrid','benfico','besiktas');
+
+    $sport = ['real madrid','benfico','besiktas'];
+
+    $len=count($sports);
+    for($i=0; $i<=$len; $i++){
+        echo $sports[$i],"\n";
+    }
+?>
+
