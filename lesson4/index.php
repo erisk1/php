@@ -54,7 +54,7 @@
     
     //   $test = "the max of $a and $b is $test";
 ?>
-
+<!-- 
 <?php 
     function divisible($n){
         if(($n % 2) == 0){
@@ -118,4 +118,30 @@
         echo $sports[$i],"\n";
     }
 ?>
+ -->
+ <!-- <?php 
+    // $sports = array('real madrid','barcelona','benfica');
+    // array_shift($sports);
+    // var_dump($sports);
+ ?> -->
+ <?php
+//     $sports = ['real madrid','benfica','chelsea','besiktas'];
 
+//     $output = array_slice($sports, 2);
+//     $output = array_slice($sports, 3);
+//     $output = array_slice($sports, -2,1);
+
+// var_dump($output, $output1, $output2);
+ ?>
+ <?php 
+    $sports = [12,24,36,48];
+
+    var_dump(array_sum($sports));
+ ?>
+ 25 30 25 26 20 28 25
+ <?php
+ $sports = [25, 30, 25, 26, 20, 28, 25];
+ $average_temp = array_sum($temp)/7;
+
+ echo($average_temp)
+ ?>
