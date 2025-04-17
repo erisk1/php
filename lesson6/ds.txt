@@ -1,0 +1,7 @@
+
+
+while (($row = fgetcsv($file, 0, "\t")) !== false){
+    echo implode("\t", $row) . "\n";
+}
+fclose($file);
+?>
