@@ -22,6 +22,23 @@
         $users = $getUsers -> fetchAll();
     ?>
 
+    <?php include("header.php")?>
+
+    <style>
+    table, tr,th,td{
+        border: 1px solid black;
+    }
+
+    table,tr,td{
+        border-collapse: collapse;
+    }
+
+    td{
+        padding: 15px;
+    }
+    </style>
+
+
     <table>
         <thead>
             <th>id</th>
